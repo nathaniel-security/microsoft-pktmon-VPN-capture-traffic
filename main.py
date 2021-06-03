@@ -4,7 +4,8 @@ import time
 
 
 os.system('pktmon start --capture')
-
+try:
+	os.remove('ip')
 
 domain_name = 'google.com'
 ip_add = socket.gethostbyname(domain_name)
