@@ -18,8 +18,3 @@ os.system('pktmon etl2txt PktMon.etl')
 time.sleep(10)
 os.system('echo ' + ip_add + " >> ip")
 os.system("clip < ip")
-
-
-
-
-
